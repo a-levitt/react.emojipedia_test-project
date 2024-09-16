@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Entry = (props) => {
+function Entry(props) {
     return (
             <div className="term">
                 <dt>
@@ -13,7 +13,7 @@ const Entry = (props) => {
                     {props.description}
                 </dd>
             </div>
-    )
+    );
 }
 
 export default Entry;
